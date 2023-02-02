@@ -55,6 +55,10 @@ public class Carro {
         return ligado;
     }
 
+    public void setLigado(boolean ligado) {
+        this.ligado = ligado;
+    }
+
     public int getVelocidadeAtual() {
         return velocidadeAtual;
     }
